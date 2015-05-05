@@ -68,6 +68,7 @@ class DetectorNoise(object):
         self.result['freq_vec'] = freq_vec
         self.result['f_noise'] = f_noise
         self.result['NEP'] = kNEPval
+        self.result['eta'] = eta
 
 
         return self.result
